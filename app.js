@@ -467,20 +467,7 @@ document
 
 };
 
-// =====================================
-// Кнопка "Служение"
-// =====================================
 
-document
-.getElementById("serviceBtn")
-.onclick = function () {
-
-    const month =
-    currentDate.toISOString().slice(0, 7);
-
-    openService(month);
-
-};
 
 document
 .getElementById("nextWeek")
@@ -497,7 +484,20 @@ document
 
 };
 
+// =====================================
+// Кнопка "Служение"
+// =====================================
 
+document
+.getElementById("serviceBtn")
+.onclick = function () {
+
+    const month =
+    currentDate.toISOString().slice(0, 7);
+
+    openService(month);
+
+};
 
 document
 .getElementById("todayBtn")
