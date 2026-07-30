@@ -156,48 +156,67 @@
 
 
 <!-- ==========================
-     ДОБАВИТЬ ЗАПИСЬ
+     ДОБАВИТЬ / РЕДАКТИРОВАТЬ ЗАПИСЬ
 ========================== -->
 
 <div id="serviceAddModal" class="modal hidden">
 
     <div class="modal-content service-add-window">
 
-        <h3>Новая запись</h3>
+        <h3 id="serviceFormTitle">
+            Новая запись
+        </h3>
 
-        <label>Дата</label>
+        <label>📅 Дата</label>
 
         <input
             type="date"
             id="serviceDate"
         >
 
-        <label>Часы</label>
+        <label>🕒 Часы</label>
 
         <input
             type="number"
             id="serviceHours"
             min="0"
             max="24"
-            value="0"
         >
 
-        <label>Минуты</label>
+        <label>⏱ Минуты</label>
 
         <input
             type="number"
             id="serviceMinutes"
             min="0"
             max="59"
-            value="0"
         >
 
-        <button id="saveServiceBtn">
-            Сохранить
-        </button>
+        <div class="service-buttons">
 
-        <button id="cancelServiceBtn">
+            <button
+                id="deleteServiceBtn"
+                class="danger hidden">
+
+                🗑 Удалить
+
+            </button>
+
+            <button
+                id="saveServiceBtn">
+
+                💾 Сохранить
+
+            </button>
+
+        </div>
+
+        <button
+            id="cancelServiceBtn"
+            class="secondary">
+
             Отмена
+
         </button>
 
     </div>
