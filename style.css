@@ -1249,67 +1249,41 @@ body {
 
 }
 .task.normal{
-
-    border-left:6px solid transparent;
-
+    border-left:6px solid #D1D5DB;
 }
 
-.task.yellow{
-
+.task.important{
     border-left:8px solid #FFD43B;
-
 }
 
-.task.red{
-
+.task.urgent{
     border-left:8px solid #FA5252;
-
-}
-
-.task.gray{
-
-    border-left:8px solid #868E96;
-
 }
 /* ==========================
    Task Priority Glow
 ========================== */
 
 
-.task.yellow {
+.task.important{
 
     box-shadow:
-    0 8px 20px rgba(0,0,0,0.08),
-    0 0 18px rgba(255,215,0,0.55);
+    0 8px 20px rgba(0,0,0,.08),
+    0 0 18px rgba(255,215,0,.55);
 
 }
 
-
-
-.task.red {
+.task.urgent{
 
     box-shadow:
-    0 8px 20px rgba(0,0,0,0.08),
-    0 0 20px rgba(255,60,60,0.55);
+    0 8px 20px rgba(0,0,0,.08),
+    0 0 20px rgba(255,60,60,.55);
 
 }
 
-
-
-.task.gray {
+.task.normal{
 
     box-shadow:
-    0 8px 20px rgba(0,0,0,0.08),
-    0 0 15px rgba(150,150,150,0.45);
-
-}
-
-
-
-.task.normal {
-
-    box-shadow:
-    0 8px 20px rgba(0,0,0,0.08);
+    0 8px 20px rgba(0,0,0,.08);
 
 }
 .priority-menu{
