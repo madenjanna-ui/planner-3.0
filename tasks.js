@@ -227,11 +227,11 @@ function showTaskMenu(task, date, index) {
 
             }
 
-           closeTaskMenu();
+closeTaskMenu();
 
 setTimeout(() => {
     renderWeek();
-}, 0);
+}, 50);
         };
 
     });
