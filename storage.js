@@ -169,6 +169,8 @@ function changePriority(date, index, priority) {
 
     saveStorage();
 
+    renderWeek();
+
 }
 // =====================================
 // Получить записи служения месяца
