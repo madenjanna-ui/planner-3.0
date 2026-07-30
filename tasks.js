@@ -257,7 +257,7 @@ function closeTaskMenu() {
 // =====================================
 
 document.addEventListener("click", function (e) {
-
+if (e.defaultPrevented) return;
     const menu =
         document.querySelector(".task-menu");
 
