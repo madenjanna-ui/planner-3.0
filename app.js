@@ -146,7 +146,11 @@ function renderWeek(){
 
 
         section.className="day";
+const dayOfWeek = date.getDay();
 
+if (dayOfWeek === 6 || dayOfWeek === 0) {
+    section.classList.add("weekend");
+}
 
         section.dataset.date=dateKey;
 
