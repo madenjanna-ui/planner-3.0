@@ -229,7 +229,6 @@ function renderWeek(){
 
     activateAddButtons();
 
-activateTaskSelection();
 
 
 }
@@ -608,4 +607,3 @@ window.addEventListener(
 
 renderWeek();
 
-activateTaskSelection();
